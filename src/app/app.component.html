@@ -1,3 +1,12 @@
 <h2>Tiny-Mce Integration with Angular</h2>
-<a href="https://www.tiny.cloud/docs/integrations/angular/#tinymceangularintegrationquickstartguide">Installation
-  Instruction</a>
+<a
+  href="https://www.tiny.cloud/docs/integrations/angular/#tinymceangularintegrationquickstartguide"
+  >Installation Instruction</a
+>
+
+<editor
+  [init]="{
+    base_url: '/tinymce', // Root for resources
+    suffix: '.min'        // Suffix to use when loading resources
+  }"
+></editor>
